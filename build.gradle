@@ -45,7 +45,7 @@ allprojects {
         showViolations = true
         configFile file("config/checkstyle.xml")
         source 'entry/src/main/java'
-        source 'instalike/src/main/java'
+        source 'fancyfacebookbadgelib/src/main/java'
         include '**/*.java'
 
         // empty classpath
@@ -59,11 +59,11 @@ checkstyle {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "applibgroup_Instalike"
+        property "sonar.projectKey", "applibgroup_FancyFacebookBadge-Ohos"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.sources", "entry,instalike"
-        property "sonar.java.binaries", "entry/build,instalike/build"
+        property "sonar.sources", "entry,fancyfacebookbadgelib"
+        property "sonar.java.binaries", "entry/build,fancyfacebookbadgelib/build"
         property "sonar.java.checkstyle.reportPaths", "build/reports/checkstyle/checkstyle.xml"
     }
 }
