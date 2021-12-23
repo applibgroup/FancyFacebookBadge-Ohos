@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="16vp"
+        ohos:left_padding="16vp"
+        ohos:right_padding="16vp"
+        ohos:top_padding="16vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reacthaha"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_HAHA"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:hahabadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reactsad"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_SAD"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:sadbadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reactlove"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_LOVE"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:lovebadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reactwow"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_WOW"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:wowbadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reactangry"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_angry"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:angrybadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reactlike"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="REACT_LIKE"/>
+
+            <com.shashank.sony.fancyfacebookbadgelib.FacebookNotificationBadge
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:likebadge"
+                ohos:bottom_padding="20fp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:id="$+id:reset"
+                ohos:text_size="20vp"
+                ohos:margin="10vp"
+                ohos:layout_alignment="center"
+                ohos:text="RESET"/>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+    
+</ScrollView>
